@@ -1,0 +1,11 @@
+{
+  "language": "go",
+  "pure": false,
+  "name": "lilliput",
+  "link": "https://github.com/discord/lilliput",
+  "build": [
+    "go get github.com/discord/lilliput",
+    "go build -a -ldflags=\"-s -w\" -o build/benchmark main.go"
+  ],
+  "run": "./build/benchmark"
+}

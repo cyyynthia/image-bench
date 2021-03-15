@@ -1,0 +1,10 @@
+{
+  "language": "nodejs",
+  "pure": true,
+  "name": "JIMP",
+  "link": "https://github.com/oliver-moran/jimp",
+  "build": [
+    "npm i"
+  ],
+  "run": "node benchmark.js"
+}

@@ -14,6 +14,8 @@ I also want to track the evolution of image resize, and maybe give motivation to
 libs faster 🚀
 
 ## What is benchmarked?
+For now I'm focusing on image resize performance, but I'll also add to the suite some other operations to have a
+complete:tm: benchmark.
 
 ## But benchmark for X is unfair!
 If you feel the results for a specific library are biased because of some mistakes in the code used for benchmarking,
@@ -25,4 +27,11 @@ look into it.
 
 ## License?
 The benchmarking code is available under the [BSD-3-Clause](LICENSE) license. The results I'm making available are
-provided under a [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
+provided under a [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
+
+### Test data acknowledgements
+The beautiful pictures in `testdata` of the city of Toulouse (France) are courtesy of:
+ - `gare-matabiau`: Photo by [Didier Descouens](https://commons.wikimedia.org/wiki/User:Archaeodontosaurus) (license [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))
+ - `carmes-feral`: Photo by [Siddhant Kumar](https://unsplash.com/@saytosid) on [Unsplash](https://unsplash.com)
+ - `jardin-royal`: Photo by [DAT VO](https://unsplash.com/@hoangdat302) on [Unsplash](https://unsplash.com)
+ - `place-st-pierre`: Photo by [DAT VO](https://unsplash.com/@hoangdat302) on [Unsplash](https://unsplash.com)

@@ -1,0 +1,10 @@
+{
+  "language": "nodejs",
+  "pure": false,
+  "name": "sharp",
+  "link": "https://github.com/lovell/sharp",
+  "build": [
+    "npm i"
+  ],
+  "run": "node benchmark.js"
+}

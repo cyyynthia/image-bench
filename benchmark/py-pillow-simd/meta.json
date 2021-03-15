@@ -1,0 +1,11 @@
+{
+  "language": "python",
+  "pure": false,
+  "name": "pillow-simd",
+  "link": "https://github.com/uploadcare/pillow-simd",
+  "build": [
+    "python -m pip uninstall pillow",
+    "CC=\"cc -mavx2\" python -m pip install -U --force-reinstall pillow-simd"
+  ],
+  "run": "python benchmark.py"
+}
